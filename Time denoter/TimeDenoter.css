@@ -1,0 +1,419 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/woman-wearing-headphones-full-shot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    position: relative;
+   
+    
+
+}
+nav h4{
+    background-color: rgb(190, 47, 94);
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 20px ;
+    font-family: Dancing Script;
+}
+nav{
+    height: 8vh;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    width: 15vw;
+    font-weight: 700;
+    gap: 20px;
+    list-style: none;
+    position: absolute;
+    margin-left: 68vw;
+    font-family: Tektur;
+    font-size: 12px;
+    
+    
+}
+nav ul li{
+    padding: 5px;
+    background-color: rgb(190, 47, 94);
+    
+    border-radius: 40px;
+    margin-top: 20px ;
+}
+#subhed{
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: 2vh;
+    /* background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    background: linear-gradient( rgb(190, 47, 94), #ffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Lemon;
+    
+
+}
+#inpdiv{
+    margin-left: 65vw;
+    margin-top: 9vh;
+
+    
+
+}
+#inpdiv input{
+    width: 30vw;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    border: none;
+    outline: none;
+    background-color: rgb(222, 197, 210);
+    padding: 10px;
+    font-size: 15px;
+    
+
+
+}
+#inpdiv button{
+    width: 6vw;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    margin-left:24vw ;
+    border: none;
+    outline: none;
+    background-color:rgb(190, 47, 94) ;
+    color:#ffff;
+    cursor: pointer;
+   
+}
+#container{
+    /* background-color: red; */
+    margin-top: 2vw;
+    width:36vw;
+    margin-left: 62vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    max-height: 55vh;
+    overflow-y: auto;
+}
+#userinp{
+    display: flex;
+    width: 88%;
+    /* background-color: aliceblue; */
+    color: black;
+    height: 30px;
+    margin: 10px;
+    list-style: none;
+}
+#noted{
+    width: 20%;
+    background-color: rgb(190, 47, 94);
+    border-radius: 20px;
+    margin-left: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+#thistm{
+    width: 90%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:rgb(222, 197, 210);
+    margin-left: -13px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btndiv{
+    margin-top: 2vw;
+    margin-left: 69vw;
+    
+    width: 22vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+#btn1{
+    height: 100%;
+    width: 40%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    background-color: rgb(190, 47, 94); ;
+}
+#btn2{
+    height: 100%;
+    width: 40%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    background-color: rgb(190, 47, 94); ;
+}
+#galdivid{
+   
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#secdivid{
+
+    width: 80vw;
+    height: 80vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+#seconeid{
+    background-color: rgb(219, 31, 31);
+    width: 80%;
+    height: 10%;
+    background-color: rgb(190, 47, 94); 
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+#notedgal{
+    background-color:rgb(222, 197, 210); 
+    width: 60%;
+    height:90%;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.zindex{
+    margin-top: 20px;
+}
+#addindex{
+    width: 100vw;
+    height: 100vh;
+    
+}   
+#btn1:active{
+    background-color: rgb(48, 13, 25);
+}
+#btn2:active{
+    background-color: rgb(50, 15, 27);
+}
+.fa-arrow-left-long{
+    color: rgb(222, 198, 198);
+    padding: 20px;
+    position: absolute;
+    margin-bottom: 80vh;
+    margin-right: 90vw;
+}  
+#tdiv{
+    
+     width: 80vw;
+     height: 90vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     overflow-y: scroll;
+     
+     
+     gap:5px
+     
+
+}
+#addindex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#fdiv{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(190, 47, 94);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+#litwo{
+    background-color:rgb(98, 33, 67); 
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+@media (max-width:450px){
+    
+    nav h4{
+        background-color: rgb(190, 47, 94);
+        padding: 10px;
+        border-radius: 40px;
+        margin-top: 8vh ;
+        font-family: Dancing Script;
+        display: block;
+        margin-left: 13vw;
+      
+    }
+    #subhed{
+        position: absolute;
+        margin-left: 13vw;
+        margin-top: 5vh;
+        /* background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; */
+        background: linear-gradient( rgb(190, 47, 94), #ffff);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-family: Lemon;
+        
+    
+    }
+    #inpdiv{
+        margin-left: 10vw;
+        margin-top: 11vh;
+        
+    
+        
+    
+    }
+    #inpdiv input{
+        width: 70vw;
+        height: 30px;
+        border-radius: 30px;
+        position: absolute;
+        border: none;
+        outline: none;
+        background-color: rgb(222, 197, 210);
+        padding: 10px;
+        font-size: 15px;
+        
+    
+    
+    }
+    #inpdiv button{
+        width: 15vw;
+        height: 30px;
+        border-radius: 30px;
+        position: relative;
+        margin-left:58vw ;
+      
+        border: none;
+        outline: none;
+        background-color:rgb(190, 47, 94) ;
+        color:#ffff;
+        cursor: pointer;
+       
+    }
+    #btndiv{
+        margin-top: 2vw;
+        margin-left: 30vw;
+        
+        width: 22vw;
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+        gap: 2vw;
+    
+    }
+    #btn1{
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        color: #ffff;
+        background-color: rgb(190, 47, 94); ;
+    }
+    #btn2{
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        color: #ffff;
+        background-color: rgb(190, 47, 94); ;
+    }
+    #container{
+        /* background-color: red; */
+        margin-top: 2vw;
+        width:90vw;
+        margin-left: 1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        max-height: 55vh;
+        overflow-y: auto;
+    }
+    #userinp{
+        display: flex;
+        width: 88%;
+        /* background-color: aliceblue; */
+        color: black;
+        height: 30px;
+        margin: 10px;
+        list-style: none;
+    }
+    #noted{
+        width: 30%;
+        background-color: rgb(190, 47, 94);
+        border-radius: 20px;
+        margin-left: 10px;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+    #thistm{
+        width: 90%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color:rgb(222, 197, 210);
+        margin-left: -13px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
